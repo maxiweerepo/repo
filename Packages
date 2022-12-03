@@ -26,3 +26,18 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Name: CLI Tools
+Package: net.angelxwind.clitools
+Version: 1.3.1
+Description: Metapackage for some CLI tools I use often.
+Section: System
+Depends: syslogcmdline, adv-cmds, com.innoying.sbutils, cycript | firmware (>= 11.0), irssi | firmware (>= 11.0), com.autopear.installipa, org.thebigboss.cacerts, com.eswick.ondeviceconsole, org.thebigboss.cutils, apt7, basic-cmds, bootstrap-cmds, bzip2, class-dump | firmware (>= 11.0), coreutils, developer-cmds, diskdev-cmds, file-cmds, gawk, gdb | firmware (>= 11.0), git, gzip, iokittools, less, make, com.conradkramer.open, nano, network-cmds, ldid, rsync, shell-cmds, system-cmds, com.ericasadun.utilities | firmware (>= 11.0), socat, screen, top, uikittools, findutils, inetutils, diffutils, lsof, subversion | firmware (>= 11.0), vim, xar | firmware (>= 11.0), tar, patch, unrar, unzip, wget, whois | firmware (>= 11.0), xml2 | firmware (>= 11.0), zip, p7zip
+Conflicts: 
+Replaces:
+Architecture: iphoneos-arm64
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Homepage: https://cydia.angelxwind.net/
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.clitools
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+
+
